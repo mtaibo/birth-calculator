@@ -26,6 +26,7 @@ body {
     border-radius: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .input-box form label {
