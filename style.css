@@ -11,7 +11,7 @@ body {
     margin: auto;
     margin-top: 30px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .input-box h1 {
@@ -31,4 +31,20 @@ body {
 
 .input-box form label {
     grid-column: 1;
+}
+
+.input-box form input {
+    background-color: #fcc0ff;
+    border-radius: 5px;
+}
+
+.input-box form button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    background-color: #fcc0ff;
+    border-radius: 10px;
 }
