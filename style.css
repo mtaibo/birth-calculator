@@ -1,0 +1,33 @@
+
+body {
+    background-color: #fcc0ff;
+    font-family: "Overpass Mono", sans-seri;
+    font-size: 20px;
+}
+
+.input-box {
+    background-color: #f87bff;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-box h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.input-box form {
+    background-color: #f644ff99;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input-box form label {
+    grid-column: 1;
+}
